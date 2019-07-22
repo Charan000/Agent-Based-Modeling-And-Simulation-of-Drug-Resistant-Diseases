@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+					<parameter name="randomSeed" displayName="Default Random Seed" type="int" 
+						defaultValue="123456789" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="END_TIME" displayName="Number of Days for Simulation" type="int" 
+						defaultValue="10" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="AGENT_DEFINITION" displayName="Agent Def" type="java.lang.String" 
+						defaultValue="random:20" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+		<parameter name="prob_UL" displayName="Probability of U -> L" type="float" 
+						defaultValue="0.000137"
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$FloatConverter"
+						
+									
+		/>
+		
+		<parameter name="prob_LA" displayName="Probability of L -> A" type="float" 
+						defaultValue="0.000031"
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$FloatConverter"
+						
+									
+		/>
+		</parameters>
+
+

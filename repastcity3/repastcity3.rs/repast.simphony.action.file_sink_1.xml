@@ -1,0 +1,17 @@
+<repast.simphony.data2.engine.FileSinkDescriptor simphonyVersion="2.5.0">
+  <name>Patient Demographics</name>
+  <dataSet>DS</dataSet>
+  <delimiter> , </delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>run</string>
+    <string>tick</string>
+    <string>Count_U</string>
+    <string>Count_LS</string>
+    <string>Count_LR</string>
+    <string>Count_AS</string>
+    <string>Count_AR</string>
+  </sourceIds>
+  <fileName>ModelOutput.txt</fileName>
+  <addTimeStamp>true</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

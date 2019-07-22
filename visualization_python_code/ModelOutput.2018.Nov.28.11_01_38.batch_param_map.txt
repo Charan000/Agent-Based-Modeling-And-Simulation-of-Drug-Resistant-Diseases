@@ -1,0 +1,3 @@
+"run" , "randomSeed" , "END_TIME" , "prob_LA" , "prob_UL" , "AGENT_DEFINITION"
+1 , 123456789 , 500 , 3.1E-5 , 1.37E-4 , "random:100"
+2 , 123456789 , 500 , 3.1E-5 , 1.37E-4 , "random:75"

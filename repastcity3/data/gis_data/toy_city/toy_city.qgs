@@ -1,0 +1,1684 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.2.2-Bonn" projectname="">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+      <srsid>3266</srsid>
+      <srid>4130</srid>
+      <authid>EPSG:4130</authid>
+      <description>Moznet</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer name="stations" providerKey="ogr" source="./stations.shp" checked="Qt::Checked" id="stations20110711125034475" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="roads" providerKey="ogr" source="./roads.shp" checked="Qt::Checked" id="roads20110711125034458" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="people" providerKey="ogr" source="./people.shp" checked="Qt::Checked" id="people20110711125034441" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="one_person" providerKey="ogr" source="./one_person.shp" checked="Qt::Checked" id="one_person20110711125034392" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="buildings" providerKey="ogr" source="./buildings.shp" checked="Qt::Checked" id="buildings20110711125034192" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="community-oac" providerKey="ogr" source="./community-oac.shp" checked="Qt::Checked" id="community_oac20110711125034355" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0"/>
+  </layer-tree-group>
+  <snapping-settings unit="2" enabled="1" tolerance="0" mode="3" intersection-snapping="0" type="1">
+    <individual-layer-settings>
+      <layer-setting enabled="0" tolerance="12" id="community_oac20110711125034355" units="1" type="1"/>
+      <layer-setting enabled="0" tolerance="12" id="buildings20110711125034192" units="1" type="1"/>
+      <layer-setting enabled="0" tolerance="12" id="roads20110711125034458" units="1" type="1"/>
+      <layer-setting enabled="0" tolerance="12" id="one_person20110711125034392" units="1" type="1"/>
+      <layer-setting enabled="0" tolerance="12" id="people20110711125034441" units="1" type="1"/>
+      <layer-setting enabled="0" tolerance="12" id="stations20110711125034475" units="1" type="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>-8367311.6382153881713748</xmin>
+      <ymin>-5936355.4476591469720006</ymin>
+      <xmax>10048789.08834710344672203</xmax>
+      <ymax>6406699.5093721030279994</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+        <srsid>3266</srsid>
+        <srid>4130</srid>
+        <authid>EPSG:4130</authid>
+        <description>Moznet</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer name="stations" drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="stations20110711125034475" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="roads" drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="roads20110711125034458" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="people" drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="people20110711125034441" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="one_person" drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="one_person20110711125034392" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="buildings" drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="buildings20110711125034192" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="community-oac" drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="community_oac20110711125034355" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" labelsEnabled="1" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" autoRefreshTime="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" maxScale="0" type="vector" simplifyLocal="1" autoRefreshEnabled="0">
+      <extent>
+        <xmin>431615.81046808446990326</xmin>
+        <ymin>436780.39216852618847042</ymin>
+        <xmax>432261.36577205621870235</xmax>
+        <ymax>437671.46710097999311984</ymax>
+      </extent>
+      <id>buildings20110711125034192</id>
+      <datasource>./buildings.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>buildings</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>100000</srsid>
+          <srid>0</srid>
+          <authid>USER:100000</authid>
+          <description> * Generated CRS (+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>airy</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol name="0" clip_to_extent="1" alpha="1" type="fill">
+            <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="225,89,137,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="TYPE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="acc">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="vis">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sec">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tv">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="identifier">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="TYPE" index="0"/>
+        <alias name="" field="ID" index="1"/>
+        <alias name="" field="acc" index="2"/>
+        <alias name="" field="vis" index="3"/>
+        <alias name="" field="sec" index="4"/>
+        <alias name="" field="tv" index="5"/>
+        <alias name="" field="identifier" index="6"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="TYPE" applyOnUpdate="0" expression=""/>
+        <default field="ID" applyOnUpdate="0" expression=""/>
+        <default field="acc" applyOnUpdate="0" expression=""/>
+        <default field="vis" applyOnUpdate="0" expression=""/>
+        <default field="sec" applyOnUpdate="0" expression=""/>
+        <default field="tv" applyOnUpdate="0" expression=""/>
+        <default field="identifier" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="TYPE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="acc" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="vis" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="sec" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="tv" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="identifier" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="TYPE" desc="" exp=""/>
+        <constraint field="ID" desc="" exp=""/>
+        <constraint field="acc" desc="" exp=""/>
+        <constraint field="vis" desc="" exp=""/>
+        <constraint field="sec" desc="" exp=""/>
+        <constraint field="tv" desc="" exp=""/>
+        <constraint field="identifier" desc="" exp=""/>
+      </constraintExpressions>
+      <attributeactions/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>"TYPE"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" labelsEnabled="1" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" autoRefreshTime="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" maxScale="0" type="vector" simplifyLocal="1" autoRefreshEnabled="0">
+      <extent>
+        <xmin>431582.74878472555428743</xmin>
+        <ymin>436744.9523130792658776</ymin>
+        <xmax>432318.82560286979423836</xmax>
+        <ymax>437689.1420415808679536</ymax>
+      </extent>
+      <id>community_oac20110711125034355</id>
+      <datasource>./community-oac.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>community-oac</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>100000</srsid>
+          <srid>0</srid>
+          <authid>USER:100000</authid>
+          <description> * Generated CRS (+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>airy</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol name="0" clip_to_extent="1" alpha="1" type="fill">
+            <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="229,182,54,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="CE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SUPERGROUP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GROUP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SUBGROUP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V5">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V6">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V7">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V8">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V9">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V10">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V11">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V12">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V13">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V14">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V15">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V16">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V17">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V18">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V19">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V20">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V21">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V22">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V23">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V24">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V25">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V26">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V27">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V28">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V29">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V30">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V31">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V32">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V33">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V34">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V35">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V36">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V37">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V38">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V39">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V40">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V41">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="area">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tv">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="CE" index="0"/>
+        <alias name="" field="SUPERGROUP" index="1"/>
+        <alias name="" field="GROUP" index="2"/>
+        <alias name="" field="SUBGROUP" index="3"/>
+        <alias name="" field="V1" index="4"/>
+        <alias name="" field="V2" index="5"/>
+        <alias name="" field="V3" index="6"/>
+        <alias name="" field="V4" index="7"/>
+        <alias name="" field="V5" index="8"/>
+        <alias name="" field="V6" index="9"/>
+        <alias name="" field="V7" index="10"/>
+        <alias name="" field="V8" index="11"/>
+        <alias name="" field="V9" index="12"/>
+        <alias name="" field="V10" index="13"/>
+        <alias name="" field="V11" index="14"/>
+        <alias name="" field="V12" index="15"/>
+        <alias name="" field="V13" index="16"/>
+        <alias name="" field="V14" index="17"/>
+        <alias name="" field="V15" index="18"/>
+        <alias name="" field="V16" index="19"/>
+        <alias name="" field="V17" index="20"/>
+        <alias name="" field="V18" index="21"/>
+        <alias name="" field="V19" index="22"/>
+        <alias name="" field="V20" index="23"/>
+        <alias name="" field="V21" index="24"/>
+        <alias name="" field="V22" index="25"/>
+        <alias name="" field="V23" index="26"/>
+        <alias name="" field="V24" index="27"/>
+        <alias name="" field="V25" index="28"/>
+        <alias name="" field="V26" index="29"/>
+        <alias name="" field="V27" index="30"/>
+        <alias name="" field="V28" index="31"/>
+        <alias name="" field="V29" index="32"/>
+        <alias name="" field="V30" index="33"/>
+        <alias name="" field="V31" index="34"/>
+        <alias name="" field="V32" index="35"/>
+        <alias name="" field="V33" index="36"/>
+        <alias name="" field="V34" index="37"/>
+        <alias name="" field="V35" index="38"/>
+        <alias name="" field="V36" index="39"/>
+        <alias name="" field="V37" index="40"/>
+        <alias name="" field="V38" index="41"/>
+        <alias name="" field="V39" index="42"/>
+        <alias name="" field="V40" index="43"/>
+        <alias name="" field="V41" index="44"/>
+        <alias name="" field="area" index="45"/>
+        <alias name="" field="tv" index="46"/>
+        <alias name="" field="ID" index="47"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="CE" applyOnUpdate="0" expression=""/>
+        <default field="SUPERGROUP" applyOnUpdate="0" expression=""/>
+        <default field="GROUP" applyOnUpdate="0" expression=""/>
+        <default field="SUBGROUP" applyOnUpdate="0" expression=""/>
+        <default field="V1" applyOnUpdate="0" expression=""/>
+        <default field="V2" applyOnUpdate="0" expression=""/>
+        <default field="V3" applyOnUpdate="0" expression=""/>
+        <default field="V4" applyOnUpdate="0" expression=""/>
+        <default field="V5" applyOnUpdate="0" expression=""/>
+        <default field="V6" applyOnUpdate="0" expression=""/>
+        <default field="V7" applyOnUpdate="0" expression=""/>
+        <default field="V8" applyOnUpdate="0" expression=""/>
+        <default field="V9" applyOnUpdate="0" expression=""/>
+        <default field="V10" applyOnUpdate="0" expression=""/>
+        <default field="V11" applyOnUpdate="0" expression=""/>
+        <default field="V12" applyOnUpdate="0" expression=""/>
+        <default field="V13" applyOnUpdate="0" expression=""/>
+        <default field="V14" applyOnUpdate="0" expression=""/>
+        <default field="V15" applyOnUpdate="0" expression=""/>
+        <default field="V16" applyOnUpdate="0" expression=""/>
+        <default field="V17" applyOnUpdate="0" expression=""/>
+        <default field="V18" applyOnUpdate="0" expression=""/>
+        <default field="V19" applyOnUpdate="0" expression=""/>
+        <default field="V20" applyOnUpdate="0" expression=""/>
+        <default field="V21" applyOnUpdate="0" expression=""/>
+        <default field="V22" applyOnUpdate="0" expression=""/>
+        <default field="V23" applyOnUpdate="0" expression=""/>
+        <default field="V24" applyOnUpdate="0" expression=""/>
+        <default field="V25" applyOnUpdate="0" expression=""/>
+        <default field="V26" applyOnUpdate="0" expression=""/>
+        <default field="V27" applyOnUpdate="0" expression=""/>
+        <default field="V28" applyOnUpdate="0" expression=""/>
+        <default field="V29" applyOnUpdate="0" expression=""/>
+        <default field="V30" applyOnUpdate="0" expression=""/>
+        <default field="V31" applyOnUpdate="0" expression=""/>
+        <default field="V32" applyOnUpdate="0" expression=""/>
+        <default field="V33" applyOnUpdate="0" expression=""/>
+        <default field="V34" applyOnUpdate="0" expression=""/>
+        <default field="V35" applyOnUpdate="0" expression=""/>
+        <default field="V36" applyOnUpdate="0" expression=""/>
+        <default field="V37" applyOnUpdate="0" expression=""/>
+        <default field="V38" applyOnUpdate="0" expression=""/>
+        <default field="V39" applyOnUpdate="0" expression=""/>
+        <default field="V40" applyOnUpdate="0" expression=""/>
+        <default field="V41" applyOnUpdate="0" expression=""/>
+        <default field="area" applyOnUpdate="0" expression=""/>
+        <default field="tv" applyOnUpdate="0" expression=""/>
+        <default field="ID" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="CE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="SUPERGROUP" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="GROUP" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="SUBGROUP" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V1" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V2" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V3" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V4" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V5" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V6" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V7" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V8" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V9" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V10" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V11" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V12" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V13" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V14" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V15" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V16" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V17" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V18" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V19" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V20" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V21" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V22" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V23" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V24" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V26" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V27" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V28" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V29" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V30" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V31" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V32" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V33" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V34" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V35" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V36" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V37" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V38" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V39" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V40" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="V41" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="area" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="tv" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="CE" desc="" exp=""/>
+        <constraint field="SUPERGROUP" desc="" exp=""/>
+        <constraint field="GROUP" desc="" exp=""/>
+        <constraint field="SUBGROUP" desc="" exp=""/>
+        <constraint field="V1" desc="" exp=""/>
+        <constraint field="V2" desc="" exp=""/>
+        <constraint field="V3" desc="" exp=""/>
+        <constraint field="V4" desc="" exp=""/>
+        <constraint field="V5" desc="" exp=""/>
+        <constraint field="V6" desc="" exp=""/>
+        <constraint field="V7" desc="" exp=""/>
+        <constraint field="V8" desc="" exp=""/>
+        <constraint field="V9" desc="" exp=""/>
+        <constraint field="V10" desc="" exp=""/>
+        <constraint field="V11" desc="" exp=""/>
+        <constraint field="V12" desc="" exp=""/>
+        <constraint field="V13" desc="" exp=""/>
+        <constraint field="V14" desc="" exp=""/>
+        <constraint field="V15" desc="" exp=""/>
+        <constraint field="V16" desc="" exp=""/>
+        <constraint field="V17" desc="" exp=""/>
+        <constraint field="V18" desc="" exp=""/>
+        <constraint field="V19" desc="" exp=""/>
+        <constraint field="V20" desc="" exp=""/>
+        <constraint field="V21" desc="" exp=""/>
+        <constraint field="V22" desc="" exp=""/>
+        <constraint field="V23" desc="" exp=""/>
+        <constraint field="V24" desc="" exp=""/>
+        <constraint field="V25" desc="" exp=""/>
+        <constraint field="V26" desc="" exp=""/>
+        <constraint field="V27" desc="" exp=""/>
+        <constraint field="V28" desc="" exp=""/>
+        <constraint field="V29" desc="" exp=""/>
+        <constraint field="V30" desc="" exp=""/>
+        <constraint field="V31" desc="" exp=""/>
+        <constraint field="V32" desc="" exp=""/>
+        <constraint field="V33" desc="" exp=""/>
+        <constraint field="V34" desc="" exp=""/>
+        <constraint field="V35" desc="" exp=""/>
+        <constraint field="V36" desc="" exp=""/>
+        <constraint field="V37" desc="" exp=""/>
+        <constraint field="V38" desc="" exp=""/>
+        <constraint field="V39" desc="" exp=""/>
+        <constraint field="V40" desc="" exp=""/>
+        <constraint field="V41" desc="" exp=""/>
+        <constraint field="area" desc="" exp=""/>
+        <constraint field="tv" desc="" exp=""/>
+        <constraint field="ID" desc="" exp=""/>
+      </constraintExpressions>
+      <attributeactions/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>"CE"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" labelsEnabled="1" simplifyDrawingTol="1" readOnly="0" geometry="Point" autoRefreshTime="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" maxScale="0" type="vector" simplifyLocal="1" autoRefreshEnabled="0">
+      <extent>
+        <xmin>431900.85047541058156639</xmin>
+        <ymin>437384.67919316468760371</ymin>
+        <xmax>431900.85047541058156639</xmax>
+        <ymax>437384.67919316468760371</ymax>
+      </extent>
+      <id>one_person20110711125034392</id>
+      <datasource>./one_person.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>one_person</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>100000</srsid>
+          <srid>0</srid>
+          <authid>USER:100000</authid>
+          <description> * Generated CRS (+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>airy</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol name="0" clip_to_extent="1" alpha="1" type="marker">
+            <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
+              <prop v="0" k="angle"/>
+              <prop v="196,60,57,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="ID" index="0"/>
+        <alias name="" field="NAME" index="1"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="ID" applyOnUpdate="0" expression=""/>
+        <default field="NAME" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="NAME" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="ID" desc="" exp=""/>
+        <constraint field="NAME" desc="" exp=""/>
+      </constraintExpressions>
+      <attributeactions/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>"ID"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" labelsEnabled="1" simplifyDrawingTol="1" readOnly="0" geometry="Point" autoRefreshTime="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" maxScale="0" type="vector" simplifyLocal="1" autoRefreshEnabled="0">
+      <extent>
+        <xmin>431623.54433539730962366</xmin>
+        <ymin>436857.73003079334739596</ymin>
+        <xmax>432249.90513712569372728</xmax>
+        <ymax>437616.39286581584019586</ymax>
+      </extent>
+      <id>people20110711125034441</id>
+      <datasource>./people.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>people</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>100000</srsid>
+          <srid>0</srid>
+          <authid>USER:100000</authid>
+          <description> * Generated CRS (+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>airy</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol name="0" clip_to_extent="1" alpha="1" type="marker">
+            <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
+              <prop v="0" k="angle"/>
+              <prop v="190,178,151,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="ID" index="0"/>
+        <alias name="" field="NAME" index="1"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="ID" applyOnUpdate="0" expression=""/>
+        <default field="NAME" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="NAME" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="ID" desc="" exp=""/>
+        <constraint field="NAME" desc="" exp=""/>
+      </constraintExpressions>
+      <attributeactions/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>"ID"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" labelsEnabled="1" simplifyDrawingTol="1" readOnly="0" geometry="Line" autoRefreshTime="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" maxScale="0" type="vector" simplifyLocal="1" autoRefreshEnabled="0">
+      <extent>
+        <xmin>431597.00348371284781024</xmin>
+        <ymin>436772.00456945144105703</ymin>
+        <xmax>432262.99829415424028412</xmax>
+        <ymax>437649.00353111000731587</ymax>
+      </extent>
+      <id>roads20110711125034458</id>
+      <datasource>./roads.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>roads</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>100000</srsid>
+          <srid>0</srid>
+          <authid>USER:100000</authid>
+          <description> * Generated CRS (+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>airy</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol name="0" clip_to_extent="1" alpha="1" type="line">
+            <layer class="SimpleLine" enabled="1" pass="0" locked="0">
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="145,82,45,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.26" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="IDENTIFIER">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="access">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="ID" index="0"/>
+        <alias name="" field="IDENTIFIER" index="1"/>
+        <alias name="" field="access" index="2"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="ID" applyOnUpdate="0" expression=""/>
+        <default field="IDENTIFIER" applyOnUpdate="0" expression=""/>
+        <default field="access" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="IDENTIFIER" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="access" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="ID" desc="" exp=""/>
+        <constraint field="IDENTIFIER" desc="" exp=""/>
+        <constraint field="access" desc="" exp=""/>
+      </constraintExpressions>
+      <attributeactions/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>"ID"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" labelsEnabled="1" simplifyDrawingTol="1" readOnly="0" geometry="Point" autoRefreshTime="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" maxScale="0" type="vector" simplifyLocal="1" autoRefreshEnabled="0">
+      <extent>
+        <xmin>431753.37931255635339767</xmin>
+        <ymin>436845.80344474309822544</ymin>
+        <xmax>432060.07909539504908025</xmax>
+        <ymax>437600.44743014930281788</ymax>
+      </extent>
+      <id>stations20110711125034475</id>
+      <datasource>./stations.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>stations</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>100000</srsid>
+          <srid>0</srid>
+          <authid>USER:100000</authid>
+          <description> * Generated CRS (+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999601272 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>airy</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol name="0" clip_to_extent="1" alpha="1" type="marker">
+            <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
+              <prop v="0" k="angle"/>
+              <prop v="125,139,143,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="TYPE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTENUM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STATNUM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="TYPE" index="0"/>
+        <alias name="" field="ROUTENUM" index="1"/>
+        <alias name="" field="STATNUM" index="2"/>
+        <alias name="" field="ID" index="3"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="TYPE" applyOnUpdate="0" expression=""/>
+        <default field="ROUTENUM" applyOnUpdate="0" expression=""/>
+        <default field="STATNUM" applyOnUpdate="0" expression=""/>
+        <default field="ID" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="TYPE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTENUM" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="STATNUM" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="TYPE" desc="" exp=""/>
+        <constraint field="ROUTENUM" desc="" exp=""/>
+        <constraint field="STATNUM" desc="" exp=""/>
+        <constraint field="ID" desc="" exp=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>"TYPE"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder/>
+  <properties>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+      <ProjectCRSProj4String type="QString">+proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +no_defs</ProjectCRSProj4String>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <PAL>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+    </PAL>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
+    <Measurement>
+      <DistanceUnits type="QString"></DistanceUnits>
+      <AreaUnits type="QString"></AreaUnits>
+    </Measurement>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author></author>
+    <creation></creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+</qgis>

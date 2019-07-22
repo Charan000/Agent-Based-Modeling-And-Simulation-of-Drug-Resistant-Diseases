@@ -1,0 +1,4 @@
+run: 1 ,  tick: 1.0 ,  Count_U: 82.0 ,  Count_LS: 7.0 ,  Count_LR: 0.0 ,  Count_AS: 9.0 ,  Count_AR: 2.0
+run: 1 ,  tick: 1441.0 ,  Count_U: 5.0 ,  Count_LS: 0.0 ,  Count_LR: 0.0 ,  Count_AS: 0.0 ,  Count_AR: 95.0
+run: 1 ,  tick: 2881.0 ,  Count_U: 3.0 ,  Count_LS: 0.0 ,  Count_LR: 0.0 ,  Count_AS: 0.0 ,  Count_AR: 97.0
+run: 1 ,  tick: 4320.0 ,  Count_U: 1.0 ,  Count_LS: 0.0 ,  Count_LR: 0.0 ,  Count_AS: 0.0 ,  Count_AR: 99.0

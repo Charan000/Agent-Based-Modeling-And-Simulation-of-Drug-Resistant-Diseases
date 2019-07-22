@@ -1,0 +1,67 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.5.0">
+  <name>DS</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>true</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1440.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>1416007349</hashCode>
+  </scheduleParams>
+  <atEnd>true</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>Count_U</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Count_U</id>
+        <className>repastcity3.agent.DefaultAgent</className>
+        <methodName>checkU</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Count_LS</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Count_LS</id>
+        <className>repastcity3.agent.DefaultAgent</className>
+        <methodName>checkLS</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Count_LR</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Count_LR</id>
+        <className>repastcity3.agent.DefaultAgent</className>
+        <methodName>checkLR</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Count_AS</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Count_AS</id>
+        <className>repastcity3.agent.DefaultAgent</className>
+        <methodName>checkAS</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Count_AR</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Count_AR</id>
+        <className>repastcity3.agent.DefaultAgent</className>
+        <methodName>checkAR</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>
