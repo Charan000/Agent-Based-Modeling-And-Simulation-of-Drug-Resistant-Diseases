@@ -1,4 +1,4 @@
-# Agent-Based-Modeling-And-Simulation-of-Drug-Resistant-Diseases-
+# Agent-Based-Modeling-And-Simulation-of-Drug-Resistant-Diseases
 
 This agent-based model was developed to study the onset of drug resistance in Mycobacterium tuberculosis.
 The model uses RepastCity to simulate human movements on GIS-based urban enviroments and simulates subsequent spread of the disease.
