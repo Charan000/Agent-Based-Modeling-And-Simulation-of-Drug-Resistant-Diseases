@@ -12,9 +12,9 @@ Infection Model: <br>
 City Model: <br>
 <img width="216" alt="CityModel" src="https://github.com/Charan000/Agent-Based-Modeling-And-Simulation-of-Drug-Resistant-Diseases/assets/19684939/85224ce1-c399-400a-b451-579557e34a7f">
 
+Result of Simulation of 1000 years with 100 human agents: <br>
+![result1](https://github.com/Charan000/Agent-Based-Modeling-And-Simulation-of-Drug-Resistant-Diseases/assets/19684939/522121e6-59c1-4163-b915-b1ae3f1cefd8)
 
-Result of Simulation of 1000 years with 100 human agents:
-![Result of Simulation of 1000 years with 100 human agents](./results/result1.png)
 
-Result of Simulation of 2000 years with 100 human agents:
-![Result of Simulation of 2000 years with 100 human agents](./results/result2.png)
+Result of Simulation of 2000 years with 100 human agents: <br>
+![result2](https://github.com/Charan000/Agent-Based-Modeling-And-Simulation-of-Drug-Resistant-Diseases/assets/19684939/4e3e9849-3121-4b90-8572-065ef648bce8)
