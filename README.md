@@ -6,10 +6,10 @@ Our model was able to implicate interesting findings such as differences between
 
 Refer the [Report](https://github.com/Charan000/Agent-Based-Modeling-And-Simulation-of-Drug-Resistant-Diseases/blob/master/Report.pdf) for additional details.
 
-Infection Model:
+Infection Model: <br>
 <img width="331" alt="InfectionModel" src="https://github.com/Charan000/Agent-Based-Modeling-And-Simulation-of-Drug-Resistant-Diseases/assets/19684939/5fd1f656-448d-4ef0-ae59-81aa7ef7a126">
 
-City Model:
+City Model: <br>
 <img width="216" alt="CityModel" src="https://github.com/Charan000/Agent-Based-Modeling-And-Simulation-of-Drug-Resistant-Diseases/assets/19684939/85224ce1-c399-400a-b451-579557e34a7f">
 
 
