@@ -11,8 +11,7 @@ Refer the [Report](https://github.com/Charan000/Agent-Based-Modeling-And-Simulat
 /blob/master/results/InfectionModel.png" align="left" alt="Infection Model" width="300"/>
 
 #City Model:
-<img src="https://github.com/Charan000/Agent-Based-Modeling-And-Simulation-of-Drug-Resistant-Diseases
-/blob/master/results/CityModel.png" align="left" alt="City Model" width="300"/>
+![City Model](./results/CityModel.png)
 
 #Result of Simulation of 1000 years with 100 human agents:
 <img src="https://github.com/Charan000/Agent-Based-Modeling-And-Simulation-of-Drug-Resistant-Diseases
